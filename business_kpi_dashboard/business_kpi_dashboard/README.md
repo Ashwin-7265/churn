@@ -42,3 +42,6 @@ streamlit run app.py
 
 Upload this folder to GitHub and deploy `app.py` with Streamlit Community Cloud.  
 Use the deployed app URL as the single public/view-only submission link, and keep the dataset and README in the same repository.
+
+LIVE MODEL:
+https://7v6urrukdasegeixv6v8a7.streamlit.app/
