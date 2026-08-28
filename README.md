@@ -30,3 +30,6 @@ Columns: **11**
 4. Customer Segments: customer count vs monthly revenue
 5. Filterable customer detail table
 6. Automatic written insights beside the dashboard visuals.
+
+LIVE DEMO:
+https://7v6urrukdasegeixv6v8a7.streamlit.app/
