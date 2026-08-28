@@ -29,16 +29,4 @@ Columns: **11**
 3. Churn Rate by Tenure Segment
 4. Customer Segments: customer count vs monthly revenue
 5. Filterable customer detail table
-6. Automatic written insights beside the dashboard visuals
-
-## Run locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Portfolio / submission
-
-Upload this folder to GitHub and deploy `app.py` with Streamlit Community Cloud.  
-Use the deployed app URL as the single public/view-only submission link, and keep the dataset and README in the same repository.
+6. Automatic written insights beside the dashboard visuals.
