@@ -8,9 +8,13 @@ st.set_page_config(
     layout="wide"
 )
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("customer_churn_cleaned.csv")
+    df = pd.read_csv(BASE_DIR / "customer_churn_cleaned.csv")
     df["ChurnFlag"] = df["Churn"].eq("Yes")
     df["TenureBand"] = pd.cut(
         df["TenureMonths"],
